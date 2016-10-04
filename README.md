@@ -2,6 +2,13 @@
 
 Few web scrapers which prints weekly menu for Marche Soupson store [soupson.ca](http://www.soupson.ca/?lang=en).
 
+# Conky integration
+
+One of these script could be easily used in conky:
+
+![screenshot.png](screenshot.png)
+
+
 # Python
 
 You need to have `requests` and `Beautiful soup` installed:
@@ -48,9 +55,3 @@ $ node soupson.js
 | Friday    | HARIRA!                     |
 '-----------------------------------------'
 ```
-
-# Conky integration
-
-One of these script could be easily used in conky:
-
-![screenshot.png](screenshot.png)
