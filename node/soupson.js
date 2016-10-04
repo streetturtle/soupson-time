@@ -12,7 +12,6 @@ request("http://www.soupson.ca/?lang=en", function(error, response, body){
   var weekMenu = $('.entry-content').slice(0,5).find('p').slice(1,6);
   var result = "";
   for (var i = 0, len = weekMenu.length; i < len; i++)
-    // if (i == moment().day())
     table.addRow((weekMenu[i].children[0].data).split(': '));
   console.log(table.toString());
 });
