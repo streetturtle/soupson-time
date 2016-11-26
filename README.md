@@ -14,7 +14,7 @@ ${execpi 3600 TDY=`date '+%A'`; cat /home/usrnm/.conky/menu | sed s/$TDY/'${colo
 
 # Python
 
-You need to have `requests` and `Beautiful soup` installed:
+You need to have [`requests`](http://docs.python-requests.org/en/master/) and [`Beautiful soup`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) installed:
 
 ```bash
 $ apt-get install python-requests
