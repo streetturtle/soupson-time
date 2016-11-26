@@ -7,7 +7,7 @@ Few web scrapers which prints weekly menu for [Marche Soupson](http://www.soupso
 One of these script could be easily used in conky:
 
 ```
-${execpi 3600 TDY=`date '+%A'`; cat /home/pmakhov/.conky/menu | sed s/$TDY/'${color 46B5D3}'"$TDY"'$color'/}
+${execpi 3600 TDY=`date '+%A'`; cat /home/usrnm/.conky/menu | sed s/$TDY/'${color 46B5D3}'"$TDY"'$color'/}
 ```
 
 ![screenshot.png](screenshot.png)
