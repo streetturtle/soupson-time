@@ -6,11 +6,14 @@ Few web scrapers which prints weekly menu for [Marche Soupson](http://www.soupso
 
 One of these scripts could be easily used as conky widget:
 
-```
-${execpi 3600 TDY=`date '+%A'`; cat /home/usrnm/.conky/menu | sed s/$TDY/'${color 46B5D3}'"$TDY"'$color'/}
-```
-
 ![screenshot.png](screenshot.png)
+
+
+```
+...
+${execpi 3600 TDY=`date '+%A'`; cat /home/usrnm/.conky/menu | sed s/$TDY/'${color 46B5D3}'"$TDY"'$color'/}
+...
+```
 
 # Python
 
