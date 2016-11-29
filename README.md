@@ -19,14 +19,14 @@ ${execpi 3600 TDY=`date '+%A'`; cat /home/usrnm/.conky/menu | sed s/$TDY/'${colo
 
 You need to have [`requests`](http://docs.python-requests.org/en/master/) and [`Beautiful soup`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) installed:
 
-```bash
+```sh
 $ apt-get install python-requests
 $ apt-get install python-bs4
 ```
 
 The menu could be printed to the output:
 
-```bash
+```sh
 $ python soupson.py
 Monday: Beet and Fennel
 Tuesday: Sweet Potato and Lentil
