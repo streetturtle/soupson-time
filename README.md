@@ -1,6 +1,6 @@
 # Soupson Time
 
-Few web scrapers which prints weekly menu for [Marche Soupson](http://www.soupson.ca/?lang=en).
+Few web scrapers which print weekly menu for [Marche Soupson](http://www.soupson.ca/?lang=en).
 
 # Conky integration
 
