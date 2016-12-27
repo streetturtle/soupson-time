@@ -2,13 +2,6 @@
 
 Few web scrapers which print weekly menu for [Marche Soupson](http://www.soupson.ca/?lang=en).
 
-# Conky integration
-
-One of these scripts could be easily used as conky widget:
-
-![screenshot.png](screenshot.png)
-
-
 ```
 ...
 ${execpi 3600 TDY=`date '+%A'`; cat /home/usrnm/.conky/menu | sed s/$TDY/'${color 46B5D3}'"$TDY"'$color'/}
@@ -64,3 +57,9 @@ $ node soupson.js
 | Friday    | HARIRA!                     |
 '-----------------------------------------'
 ```
+# Conky integration
+
+One of these scripts could be easily used in conky widget:
+
+![screenshot.png](screenshot.png)
+
