@@ -2,12 +2,6 @@
 
 Few web scrapers which print weekly menu for [Marche Soupson](http://www.soupson.ca/?lang=en).
 
-```
-...
-${execpi 3600 TDY=`date '+%A'`; cat /home/usrnm/.conky/menu | sed s/$TDY/'${color 46B5D3}'"$TDY"'$color'/}
-...
-```
-
 # Python
 
 You need to have [`requests`](http://docs.python-requests.org/en/master/) and [`Beautiful soup`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) installed:
@@ -62,4 +56,10 @@ $ node soupson.js
 One of these scripts could be easily used in conky widget:
 
 ![screenshot.png](screenshot.png)
+
+```
+...
+${execpi 3600 TDY=`date '+%A'`; cat /home/usrnm/.conky/menu | sed s/$TDY/'${color 46B5D3}'"$TDY"'$color'/}
+...
+```
 
