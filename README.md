@@ -2,7 +2,23 @@
 
 Few web scrapers which print weekly menu for [Marche Soupson](http://www.soupson.ca/?lang=en).
 
-# Python
+## Bash
+
+Simple one-liner using `curl`, `grep` and `tr`:
+
+```bash
+$ curl -s 'http://www.soupson.ca/?lang=en' | 
+grep -m 1 -A 10 'class="entry-content"' | 
+grep '<p>\w' | tr -d '</p>'
+Monday: Root Vegetable Medley
+Tuesday: Tomato, Kale and Lentil
+Wednesday: Butternut Squash and Sweet Potato
+Thursday: Green Vegetable Sou
+Friday: Mushroom, Wild Rice and Leek
+
+```
+
+## Python
 
 You need to have [`requests`](http://docs.python-requests.org/en/master/) and [`Beautiful soup`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) installed:
 
@@ -34,7 +50,7 @@ Thursday: Green Vegetable Medley
 Friday: HARIRA!
 ```
 
-# Node
+## Node
 
 Install dependencies and then just run it:
 
