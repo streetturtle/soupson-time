@@ -7,9 +7,7 @@ Few web scrapers which print weekly menu for [Marche Soupson](http://www.soupson
 Simple one-liner using `curl`, `grep` and `tr`:
 
 ```bash
-$ curl -s 'http://www.soupson.ca/?lang=en' | 
-grep -m 1 -A 10 'class="entry-content"' | 
-grep '<p>\w' | tr -d '</p>'
+$ soupson.sh
 Monday: Root Vegetable Medley
 Tuesday: Tomato, Kale and Lentil
 Wednesday: Butternut Squash and Sweet Potato
