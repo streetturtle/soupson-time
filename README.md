@@ -65,6 +65,19 @@ $ node soupson.js
 | Friday    | HARIRA!                     |
 '-----------------------------------------'
 ```
+
+## Ruby
+
+```bash
+$ gem install nokogiri
+$ ruby soupson.rb
+Monday: Beet and Squash
+Tuesday: Sweet Potato and Red Lentil
+Wednesday: Potato and Turnip
+Thursday: Tomato, Lentil and Spinach
+Friday: Green Vegetable Medley
+```
+
 # Conky integration
 
 One of these scripts could be easily used in conky widget:
