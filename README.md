@@ -1,6 +1,6 @@
 # Soupson Time
 
-Few web scrapers which print weekly menu for [Marche Soupson](http://www.soupson.ca/?lang=en).
+Few web scrapers which print menu for the current week of [Marche Soupson](http://www.soupson.ca/?lang=en).
 
 ## Bash
 
